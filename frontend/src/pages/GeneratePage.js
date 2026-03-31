@@ -81,7 +81,7 @@ export default function GeneratePage() {
         <div className="card">
           <div className="section-header">
             <h2 className="section-title">Results — {year}</h2>
-            <ExportButtons employeesFile={employeesFile} previousFile={previousFile} year={year} />
+            <ExportButtons assignments={assignments} year={year} />
           </div>
           <AssignmentTable assignments={assignments} />
         </div>
